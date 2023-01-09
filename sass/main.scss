@@ -1,0 +1,13 @@
+$primary: #50171d;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$bidabida-theme-colors: (
+        "philip": red,
+        "tena": goldenrod
+    );
+
+$theme-colors: map-merge($bidabida-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
